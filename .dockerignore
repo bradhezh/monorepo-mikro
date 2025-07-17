@@ -14,8 +14,7 @@ build
 docs
 *.local
 # .env might include sensitive confs
-.env
-.env.sample
+.env*
 supabase.sql
 
 .git
