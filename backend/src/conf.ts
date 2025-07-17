@@ -24,7 +24,7 @@ const conf = {
   DB_URL: process.env.DB_URL!,
   /** Flexible or sensitive configuration included in .env: should be set in the
     cloud but unnecessary in CICD pipelines. */
-  LOG_URL: process.env.LOG_URL!,
+  DB_URL_LOG: process.env.DB_URL_LOG!,
   /** Flexible or sensitive configuration included in .env: should be set in
     CICD pipelines but not in the cloud. */
   DB_URL_TEST: process.env.DB_URL_TEST!,
